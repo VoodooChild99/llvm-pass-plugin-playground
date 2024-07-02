@@ -1,10 +1,10 @@
 set(LLVM_PASS_PLUGIN_LIST
-  LoopIndVarBound
+  HelloWorld
 )
 
 set(
-	LoopIndVarBound_Src
-  LoopIndVarBound.cpp
+	HelloWorld_Src
+  HelloWorld.cpp
 )
 
 foreach( plugin ${LLVM_PASS_PLUGIN_LIST} )
